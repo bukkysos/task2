@@ -1,0 +1,251 @@
+.red, .blue {
+    -moz-box-sizing:    border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing:        border-box;
+}
+
+.red {
+    width:650px;
+    height:1000px;
+    background:red;
+    padding: 1% 0 0 1%; // Space top and left of red
+}
+
+.blue {
+    height:200px;
+    width: 24%;
+    background:blue;
+    display:inline-block;
+    float: left;
+    margin: 0 1% 1% 0; // Space bottom and right of each blue
+}
+
+
+/**/
+
+body{
+  color: #2f2f2f;
+}
+
+.blue {
+    -moz-box-sizing:    border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing:        border-box;
+}
+
+.red {
+    width:100%;
+    height:1660px;
+    background:#ccc;
+    padding: 1% 0 0 1%; // Space top and left of red
+}
+.blue {
+    height:190px;
+    width: 350px;
+    background: #fff;
+    display:inline-block;
+    float: left;
+    margin: 1% 1% 1% 1%;
+    /*Space bottom and right of each blue*/
+}
+
+.blue-right{
+  height:190px;
+  width: 830px;
+  background: none;
+  display:inline-block;
+  float: right;
+  margin: 1% 1% 1% 1%;
+}
+
+.arranged{
+  height: 350px;
+  width: 280px;
+  background: none;
+  display:inline-block;
+  float: none;
+  margin: 1% 1% 1% 1%;
+}
+
+.right{
+  margin-left: 20px;
+  padding-left: 20px;
+}
+
+.sponsors{
+  height: 100px;
+  width: 280px;
+  display:inline-block;
+  float: none;
+  padding-top: 15px;
+  margin: 1% 1% 1% 1%;
+}
+
+.arranged-right{
+  height: 500px;
+  width: 250px;
+  padding-top: 10px;
+  background: #fff;
+  display:inline-block;
+  float: right;
+  margin: 1% 1% 0% 1%;
+}
+
+.logo {
+    margin-top: 20px;
+    width: 100px;
+    height: 150px;
+    margin-bottom: 10px;
+    margin-right: 600px;
+    margin-left: 600px;
+}
+
+.descript{
+  text-align: center;
+  margin-right: 500px;
+  margin-left: 470px;
+  margin-top: -20px;
+}
+
+#imgBanner{
+  height: 270px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border-bottom: 15px solid #fff;
+  z-index: -2;
+}
+
+#img{
+    border-radius: 60px;
+    width: 350px;
+    height: 200px;
+    border: 5px solid #fff;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#logo{
+  height: 150px;
+}
+
+.side-image{
+  width: 350px;
+  border: 1px solid black;
+}
+
+.side-text{
+  width: 350px;
+}
+
+.header{
+    margin-top: 0px;
+    margin-bottom: 20px;
+    margin-right: 50px;
+    margin-left: 50px;
+    padding-bottom: -5px;
+    background-color: #ccc;
+
+
+}
+
+.footer{
+  margin-top: 0px;
+  margin-bottom: 20px;
+  margin-right: 10px;
+  margin-left: -5px;
+  padding-top: 10px;
+  height: 40px;
+  background-color: #4CAF50;
+}
+
+.container{
+    margin-top: 0px;
+    margin-bottom: 20px;
+    margin-right: 50px;
+    margin-left: 50px;
+    height: 220px;
+    background-color: none;
+}
+
+.hr{
+  color: #ccc;
+  opacity: .2;
+}
+
+.centered{
+  margin-left: 35px;
+  margin-right: 50px;
+}
+
+.arranged-img{
+  border-radius: 90px;
+  width: 170px;
+  height: 170px;
+  border: 10px solid #fff;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.img-container{
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-right: 50px;
+  margin-left: 50px;
+}
+
+.arranged-text{
+  margin-top: 0px;
+  margin-bottom: 20px;
+  margin-right: 20px;
+  margin-left: 20px;
+  padding-top: -10px;
+  text-align: center;
+}
+
+.button {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    padding: 10px 24px;
+    cursor: pointer;
+    margin-right: 50px;
+    margin-left: 80px;
+}
+
+.button-right{
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  padding: 10px 24px;
+  cursor: pointer;
+  margin-right: 20px;
+  margin-left: 20px;
+}
+
+.blue-img{
+  border-radius: 60px;
+  width: 350px;
+  height: 200px;
+  border: 5px solid #fff;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.blue-container{
+  width: 350px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-right: 10px;
+  margin-left: 10px;
+  display:inline-block;
+}
+
+.push-right{
+  margin-left: 10px;
+}
